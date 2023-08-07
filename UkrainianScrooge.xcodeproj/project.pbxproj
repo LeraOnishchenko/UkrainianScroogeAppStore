@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87B168A44740863743FE653B /* Pods_UkrainianScrooge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC0304A799A2425FE5E7C00 /* Pods_UkrainianScrooge.framework */; };
+		CF084F0629C0C32D0067247D /* AllCoinsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF084F0529C0C32D0067247D /* AllCoinsCell.swift */; };
+		CF084F0829C0CE800067247D /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF084F0729C0CE800067247D /* Networking.swift */; };
+		CF084F0A29C0D5D90067247D /* ApiSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF084F0929C0D5D90067247D /* ApiSession.swift */; };
+		CF0A37F429BE47B100A53C72 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0A37F329BE47B100A53C72 /* SignUpViewController.swift */; };
+		CF0A37F829C0AB6B00A53C72 /* AllCoinsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0A37F729C0AB6B00A53C72 /* AllCoinsViewController.swift */; };
+		CF0A37FA29C0AB7A00A53C72 /* MyCoinsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0A37F929C0AB7A00A53C72 /* MyCoinsViewController.swift */; };
+		CF0A37FC29C0AB8900A53C72 /* VisionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0A37FB29C0AB8900A53C72 /* VisionViewController.swift */; };
+		CF0A37FE29C0AB9500A53C72 /* ElseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0A37FD29C0AB9500A53C72 /* ElseViewController.swift */; };
+		CF2EF3242A1EA151007BDC6E /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2EF3232A1EA151007BDC6E /* Alert.swift */; };
+		CF3526B129BCB8EE009DA804 /* CoinsStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3526B029BCB8EE009DA804 /* CoinsStruct.swift */; };
+		CF3526B829BCE294009DA804 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3526B729BCE294009DA804 /* RegistrationViewController.swift */; };
+		CF3526BC29BCE2B6009DA804 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3526BB29BCE2B6009DA804 /* LoginViewController.swift */; };
+		CF3526BE29BCED6A009DA804 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF3526BD29BCED6A009DA804 /* GoogleService-Info.plist */; };
+		CF58E0DC2A09698500F9AFB4 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = CF58E0DB2A09698500F9AFB4 /* art.scnassets */; };
+		CF87E11029F5BCEA00093E02 /* SaveCoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF87E10F29F5BCEA00093E02 /* SaveCoinViewController.swift */; };
+		CF87E1152A001B0400093E02 /* UserStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF87E1142A001B0400093E02 /* UserStruct.swift */; };
+		CF87E1172A017B2A00093E02 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF87E1162A017B2A00093E02 /* Enums.swift */; };
+		CF87E1192A01D9C900093E02 /* MyCoinsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF87E1182A01D9C900093E02 /* MyCoinsCell.swift */; };
+		CF87E11B2A0328E400093E02 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF87E11A2A0328E400093E02 /* FilterViewController.swift */; };
+		CF87E11D2A032A5C00093E02 /* FilterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF87E11C2A032A5C00093E02 /* FilterCell.swift */; };
+		CF87E11F2A032D7200093E02 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF87E11E2A032D7200093E02 /* ViewModel.swift */; };
+		CF87E1212A04328600093E02 /* CoinsInCollectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF87E1202A04328600093E02 /* CoinsInCollectionController.swift */; };
+		CF87E1232A0432C000093E02 /* CoinsInformationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF87E1222A0432C000093E02 /* CoinsInformationCell.swift */; };
+		CF87E1272A058B1F00093E02 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF87E1262A058B1F00093E02 /* ARViewController.swift */; };
+		CF87E1292A059FD100093E02 /* coin.scn in Resources */ = {isa = PBXBuildFile; fileRef = CF87E1282A059FD100093E02 /* coin.scn */; };
+		CF88BC66298D53C8005E20C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF88BC65298D53C8005E20C6 /* AppDelegate.swift */; };
+		CF88BC68298D53C8005E20C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF88BC67298D53C8005E20C6 /* SceneDelegate.swift */; };
+		CF88BC6D298D53C8005E20C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF88BC6B298D53C8005E20C6 /* Main.storyboard */; };
+		CF88BC70298D53C8005E20C6 /* UkrainianScrooge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF88BC6E298D53C8005E20C6 /* UkrainianScrooge.xcdatamodeld */; };
+		CF88BC75298D53C9005E20C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF88BC73298D53C9005E20C6 /* LaunchScreen.storyboard */; };
+		CFB819952A05E97B005DEA20 /* Predictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB819942A05E97B005DEA20 /* Predictor.swift */; };
+		CFB819972A05E9E7005DEA20 /* OrientationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB819962A05E9E7005DEA20 /* OrientationExtension.swift */; };
+		CFB8199B2A07D745005DEA20 /* modelCoinImgF.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = CFB8199A2A07D745005DEA20 /* modelCoinImgF.mlmodel */; };
+		CFB8199D2A0808DC005DEA20 /* CoinPredictionSearcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB8199C2A0808DC005DEA20 /* CoinPredictionSearcher.swift */; };
+		CFC97F4429C5D5FD00DDBE2D /* DetailsCoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC97F4329C5D5FD00DDBE2D /* DetailsCoinViewController.swift */; };
+		CFDDD91E298D6BBD00E3FF27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF88BC71298D53C9005E20C6 /* Assets.xcassets */; };
+		CFE4FC3C29CA38C300B76441 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE4FC3B29CA38C300B76441 /* Camera.swift */; };
+		CFE4FC3E29CBAC4500B76441 /* CoinGuessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE4FC3D29CBAC4500B76441 /* CoinGuessViewController.swift */; };
+		CFE4FC4029CC68A600B76441 /* GuessCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE4FC3F29CC68A600B76441 /* GuessCell.swift */; };
+		CFF3D4C429BDEF880056D64A /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF3D4C329BDEF880056D64A /* Utilities.swift */; };
+		CFF3D4C829BDF2110056D64A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF3D4C729BDF2110056D64A /* Constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		70B5A2801B662008731F287E /* Pods-UkrainianScrooge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UkrainianScrooge.release.xcconfig"; path = "Target Support Files/Pods-UkrainianScrooge/Pods-UkrainianScrooge.release.xcconfig"; sourceTree = "<group>"; };
+		BFC0304A799A2425FE5E7C00 /* Pods_UkrainianScrooge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UkrainianScrooge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF084F0529C0C32D0067247D /* AllCoinsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCoinsCell.swift; sourceTree = "<group>"; };
+		CF084F0729C0CE800067247D /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		CF084F0929C0D5D90067247D /* ApiSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiSession.swift; sourceTree = "<group>"; };
+		CF0A37F329BE47B100A53C72 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		CF0A37F529BFC5CC00A53C72 /* UkrainianScroogeRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UkrainianScroogeRelease.entitlements; sourceTree = "<group>"; };
+		CF0A37F729C0AB6B00A53C72 /* AllCoinsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCoinsViewController.swift; sourceTree = "<group>"; };
+		CF0A37F929C0AB7A00A53C72 /* MyCoinsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCoinsViewController.swift; sourceTree = "<group>"; };
+		CF0A37FB29C0AB8900A53C72 /* VisionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionViewController.swift; sourceTree = "<group>"; };
+		CF0A37FD29C0AB9500A53C72 /* ElseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElseViewController.swift; sourceTree = "<group>"; };
+		CF2EF3232A1EA151007BDC6E /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		CF3526B029BCB8EE009DA804 /* CoinsStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsStruct.swift; sourceTree = "<group>"; };
+		CF3526B729BCE294009DA804 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		CF3526BB29BCE2B6009DA804 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CF3526BD29BCED6A009DA804 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CF58E0DB2A09698500F9AFB4 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		CF87E10F29F5BCEA00093E02 /* SaveCoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveCoinViewController.swift; sourceTree = "<group>"; };
+		CF87E1142A001B0400093E02 /* UserStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStruct.swift; sourceTree = "<group>"; };
+		CF87E1162A017B2A00093E02 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		CF87E1182A01D9C900093E02 /* MyCoinsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCoinsCell.swift; sourceTree = "<group>"; };
+		CF87E11A2A0328E400093E02 /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		CF87E11C2A032A5C00093E02 /* FilterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterCell.swift; sourceTree = "<group>"; };
+		CF87E11E2A032D7200093E02 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		CF87E1202A04328600093E02 /* CoinsInCollectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsInCollectionController.swift; sourceTree = "<group>"; };
+		CF87E1222A0432C000093E02 /* CoinsInformationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsInformationCell.swift; sourceTree = "<group>"; };
+		CF87E1262A058B1F00093E02 /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		CF87E1282A059FD100093E02 /* coin.scn */ = {isa = PBXFileReference; lastKnownFileType = text; path = coin.scn; sourceTree = "<group>"; };
+		CF88BC62298D53C8005E20C6 /* UkrainianScrooge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UkrainianScrooge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF88BC65298D53C8005E20C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF88BC67298D53C8005E20C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CF88BC6C298D53C8005E20C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF88BC6F298D53C8005E20C6 /* UkrainianScrooge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UkrainianScrooge.xcdatamodel; sourceTree = "<group>"; };
+		CF88BC71298D53C9005E20C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF88BC74298D53C9005E20C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF88BC76298D53C9005E20C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFB819942A05E97B005DEA20 /* Predictor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Predictor.swift; sourceTree = "<group>"; };
+		CFB819962A05E9E7005DEA20 /* OrientationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrientationExtension.swift; sourceTree = "<group>"; };
+		CFB8199A2A07D745005DEA20 /* modelCoinImgF.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = modelCoinImgF.mlmodel; sourceTree = "<group>"; };
+		CFB8199C2A0808DC005DEA20 /* CoinPredictionSearcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinPredictionSearcher.swift; sourceTree = "<group>"; };
+		CFC97F4329C5D5FD00DDBE2D /* DetailsCoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsCoinViewController.swift; sourceTree = "<group>"; };
+		CFE4FC3B29CA38C300B76441 /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		CFE4FC3D29CBAC4500B76441 /* CoinGuessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinGuessViewController.swift; sourceTree = "<group>"; };
+		CFE4FC3F29CC68A600B76441 /* GuessCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessCell.swift; sourceTree = "<group>"; };
+		CFF3D4C329BDEF880056D64A /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		CFF3D4C729BDF2110056D64A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D03EEE57C6BE8AAEAEC10DB3 /* Pods-UkrainianScrooge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UkrainianScrooge.debug.xcconfig"; path = "Target Support Files/Pods-UkrainianScrooge/Pods-UkrainianScrooge.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF88BC5F298D53C8005E20C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87B168A44740863743FE653B /* Pods_UkrainianScrooge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		852EE48864E1E0019CD1F269 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFC0304A799A2425FE5E7C00 /* Pods_UkrainianScrooge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF0A37F629C0AB4500A53C72 /* MyViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CF3526B629BCE23A009DA804 /* RegistrationViewControllers */,
+				CFB819A12A08DA40005DEA20 /* VisionControllers */,
+				CF0A37F729C0AB6B00A53C72 /* AllCoinsViewController.swift */,
+				CF0A37F929C0AB7A00A53C72 /* MyCoinsViewController.swift */,
+				CF0A37FD29C0AB9500A53C72 /* ElseViewController.swift */,
+				CF084F0529C0C32D0067247D /* AllCoinsCell.swift */,
+				CFC97F4329C5D5FD00DDBE2D /* DetailsCoinViewController.swift */,
+				CF87E10F29F5BCEA00093E02 /* SaveCoinViewController.swift */,
+				CF87E1182A01D9C900093E02 /* MyCoinsCell.swift */,
+				CF87E11A2A0328E400093E02 /* FilterViewController.swift */,
+				CF87E11C2A032A5C00093E02 /* FilterCell.swift */,
+				CF87E11E2A032D7200093E02 /* ViewModel.swift */,
+				CF87E1202A04328600093E02 /* CoinsInCollectionController.swift */,
+				CF87E1222A0432C000093E02 /* CoinsInformationCell.swift */,
+				CF87E1262A058B1F00093E02 /* ARViewController.swift */,
+			);
+			path = MyViewControllers;
+			sourceTree = "<group>";
+		};
+		CF3526B629BCE23A009DA804 /* RegistrationViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CF3526B729BCE294009DA804 /* RegistrationViewController.swift */,
+				CF3526BB29BCE2B6009DA804 /* LoginViewController.swift */,
+				CF0A37F329BE47B100A53C72 /* SignUpViewController.swift */,
+			);
+			path = RegistrationViewControllers;
+			sourceTree = "<group>";
+		};
+		CF87E11329FEBB7B00093E02 /* Struct */ = {
+			isa = PBXGroup;
+			children = (
+				CF3526B029BCB8EE009DA804 /* CoinsStruct.swift */,
+				CF87E1142A001B0400093E02 /* UserStruct.swift */,
+			);
+			path = Struct;
+			sourceTree = "<group>";
+		};
+		CF88BC59298D53C8005E20C6 = {
+			isa = PBXGroup;
+			children = (
+				CF88BC64298D53C8005E20C6 /* UkrainianScrooge */,
+				CF88BC63298D53C8005E20C6 /* Products */,
+				E06310C51859C277DF6519EC /* Pods */,
+				852EE48864E1E0019CD1F269 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CF88BC63298D53C8005E20C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF88BC62298D53C8005E20C6 /* UkrainianScrooge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF88BC64298D53C8005E20C6 /* UkrainianScrooge */ = {
+			isa = PBXGroup;
+			children = (
+				CF58E0DB2A09698500F9AFB4 /* art.scnassets */,
+				CF0A37F529BFC5CC00A53C72 /* UkrainianScroogeRelease.entitlements */,
+				CFB819A02A08D92D005DEA20 /* MLPrediction */,
+				CF87E11329FEBB7B00093E02 /* Struct */,
+				CF0A37F629C0AB4500A53C72 /* MyViewControllers */,
+				CF88BC65298D53C8005E20C6 /* AppDelegate.swift */,
+				CF88BC67298D53C8005E20C6 /* SceneDelegate.swift */,
+				CF88BC6B298D53C8005E20C6 /* Main.storyboard */,
+				CFB8199A2A07D745005DEA20 /* modelCoinImgF.mlmodel */,
+				CF88BC71298D53C9005E20C6 /* Assets.xcassets */,
+				CF88BC73298D53C9005E20C6 /* LaunchScreen.storyboard */,
+				CF88BC76298D53C9005E20C6 /* Info.plist */,
+				CF3526BD29BCED6A009DA804 /* GoogleService-Info.plist */,
+				CF88BC6E298D53C8005E20C6 /* UkrainianScrooge.xcdatamodeld */,
+				CFF3D4C329BDEF880056D64A /* Utilities.swift */,
+				CFF3D4C729BDF2110056D64A /* Constants.swift */,
+				CF084F0729C0CE800067247D /* Networking.swift */,
+				CF084F0929C0D5D90067247D /* ApiSession.swift */,
+				CFE4FC3B29CA38C300B76441 /* Camera.swift */,
+				CF87E1162A017B2A00093E02 /* Enums.swift */,
+				CF87E1282A059FD100093E02 /* coin.scn */,
+				CF2EF3232A1EA151007BDC6E /* Alert.swift */,
+			);
+			path = UkrainianScrooge;
+			sourceTree = "<group>";
+		};
+		CFB819A02A08D92D005DEA20 /* MLPrediction */ = {
+			isa = PBXGroup;
+			children = (
+				CFB8199C2A0808DC005DEA20 /* CoinPredictionSearcher.swift */,
+				CFB819942A05E97B005DEA20 /* Predictor.swift */,
+				CFB819962A05E9E7005DEA20 /* OrientationExtension.swift */,
+			);
+			path = MLPrediction;
+			sourceTree = "<group>";
+		};
+		CFB819A12A08DA40005DEA20 /* VisionControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CF0A37FB29C0AB8900A53C72 /* VisionViewController.swift */,
+				CFE4FC3F29CC68A600B76441 /* GuessCell.swift */,
+				CFE4FC3D29CBAC4500B76441 /* CoinGuessViewController.swift */,
+			);
+			path = VisionControllers;
+			sourceTree = "<group>";
+		};
+		E06310C51859C277DF6519EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D03EEE57C6BE8AAEAEC10DB3 /* Pods-UkrainianScrooge.debug.xcconfig */,
+				70B5A2801B662008731F287E /* Pods-UkrainianScrooge.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF88BC61298D53C8005E20C6 /* UkrainianScrooge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF88BC79298D53C9005E20C6 /* Build configuration list for PBXNativeTarget "UkrainianScrooge" */;
+			buildPhases = (
+				0EEC85D6B02D73B129479B4C /* [CP] Check Pods Manifest.lock */,
+				CF88BC5E298D53C8005E20C6 /* Sources */,
+				CF88BC5F298D53C8005E20C6 /* Frameworks */,
+				CF88BC60298D53C8005E20C6 /* Resources */,
+				B83E1B10B5B0ECAA5604A86A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UkrainianScrooge;
+			productName = UkrainianScrooge;
+			productReference = CF88BC62298D53C8005E20C6 /* UkrainianScrooge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF88BC5A298D53C8005E20C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					CF88BC61298D53C8005E20C6 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = CF88BC5D298D53C8005E20C6 /* Build configuration list for PBXProject "UkrainianScrooge" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF88BC59298D53C8005E20C6;
+			productRefGroup = CF88BC63298D53C8005E20C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF88BC61298D53C8005E20C6 /* UkrainianScrooge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF88BC60298D53C8005E20C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF87E1292A059FD100093E02 /* coin.scn in Resources */,
+				CF58E0DC2A09698500F9AFB4 /* art.scnassets in Resources */,
+				CF3526BE29BCED6A009DA804 /* GoogleService-Info.plist in Resources */,
+				CF88BC75298D53C9005E20C6 /* LaunchScreen.storyboard in Resources */,
+				CFDDD91E298D6BBD00E3FF27 /* Assets.xcassets in Resources */,
+				CF88BC6D298D53C8005E20C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EEC85D6B02D73B129479B4C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UkrainianScrooge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B83E1B10B5B0ECAA5604A86A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UkrainianScrooge/Pods-UkrainianScrooge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UkrainianScrooge/Pods-UkrainianScrooge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UkrainianScrooge/Pods-UkrainianScrooge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF88BC5E298D53C8005E20C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF87E11029F5BCEA00093E02 /* SaveCoinViewController.swift in Sources */,
+				CF0A37F829C0AB6B00A53C72 /* AllCoinsViewController.swift in Sources */,
+				CF87E1172A017B2A00093E02 /* Enums.swift in Sources */,
+				CF88BC70298D53C8005E20C6 /* UkrainianScrooge.xcdatamodeld in Sources */,
+				CF084F0A29C0D5D90067247D /* ApiSession.swift in Sources */,
+				CF87E11F2A032D7200093E02 /* ViewModel.swift in Sources */,
+				CFB819952A05E97B005DEA20 /* Predictor.swift in Sources */,
+				CF084F0829C0CE800067247D /* Networking.swift in Sources */,
+				CF3526B829BCE294009DA804 /* RegistrationViewController.swift in Sources */,
+				CFB8199B2A07D745005DEA20 /* modelCoinImgF.mlmodel in Sources */,
+				CF87E1232A0432C000093E02 /* CoinsInformationCell.swift in Sources */,
+				CFF3D4C429BDEF880056D64A /* Utilities.swift in Sources */,
+				CF88BC66298D53C8005E20C6 /* AppDelegate.swift in Sources */,
+				CF2EF3242A1EA151007BDC6E /* Alert.swift in Sources */,
+				CF084F0629C0C32D0067247D /* AllCoinsCell.swift in Sources */,
+				CFB819972A05E9E7005DEA20 /* OrientationExtension.swift in Sources */,
+				CFE4FC4029CC68A600B76441 /* GuessCell.swift in Sources */,
+				CFF3D4C829BDF2110056D64A /* Constants.swift in Sources */,
+				CF3526B129BCB8EE009DA804 /* CoinsStruct.swift in Sources */,
+				CFE4FC3E29CBAC4500B76441 /* CoinGuessViewController.swift in Sources */,
+				CF87E1152A001B0400093E02 /* UserStruct.swift in Sources */,
+				CF3526BC29BCE2B6009DA804 /* LoginViewController.swift in Sources */,
+				CFE4FC3C29CA38C300B76441 /* Camera.swift in Sources */,
+				CF0A37FE29C0AB9500A53C72 /* ElseViewController.swift in Sources */,
+				CF0A37FA29C0AB7A00A53C72 /* MyCoinsViewController.swift in Sources */,
+				CF87E11B2A0328E400093E02 /* FilterViewController.swift in Sources */,
+				CF0A37F429BE47B100A53C72 /* SignUpViewController.swift in Sources */,
+				CF0A37FC29C0AB8900A53C72 /* VisionViewController.swift in Sources */,
+				CFC97F4429C5D5FD00DDBE2D /* DetailsCoinViewController.swift in Sources */,
+				CF87E1192A01D9C900093E02 /* MyCoinsCell.swift in Sources */,
+				CFB8199D2A0808DC005DEA20 /* CoinPredictionSearcher.swift in Sources */,
+				CF87E1212A04328600093E02 /* CoinsInCollectionController.swift in Sources */,
+				CF87E11D2A032A5C00093E02 /* FilterCell.swift in Sources */,
+				CF87E1272A058B1F00093E02 /* ARViewController.swift in Sources */,
+				CF88BC68298D53C8005E20C6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CF88BC6B298D53C8005E20C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF88BC6C298D53C8005E20C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF88BC73298D53C9005E20C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF88BC74298D53C9005E20C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF88BC77298D53C9005E20C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF88BC78298D53C9005E20C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF88BC7A298D53C9005E20C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D03EEE57C6BE8AAEAEC10DB3 /* Pods-UkrainianScrooge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VNU8KKW4GG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UkrainianScrooge/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "I want to see you";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = lib;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = Library;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ua.edu.ukma.onishchenko.UkrainianScrooge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF88BC7B298D53C9005E20C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70B5A2801B662008731F287E /* Pods-UkrainianScrooge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = UkrainianScrooge/UkrainianScroogeRelease.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VNU8KKW4GG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UkrainianScrooge/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "I want to see you";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = lib;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = Library;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ua.edu.ukma.onishchenko.UkrainianScrooge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF88BC5D298D53C8005E20C6 /* Build configuration list for PBXProject "UkrainianScrooge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF88BC77298D53C9005E20C6 /* Debug */,
+				CF88BC78298D53C9005E20C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF88BC79298D53C9005E20C6 /* Build configuration list for PBXNativeTarget "UkrainianScrooge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF88BC7A298D53C9005E20C6 /* Debug */,
+				CF88BC7B298D53C9005E20C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CF88BC6E298D53C8005E20C6 /* UkrainianScrooge.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CF88BC6F298D53C8005E20C6 /* UkrainianScrooge.xcdatamodel */,
+			);
+			currentVersion = CF88BC6F298D53C8005E20C6 /* UkrainianScrooge.xcdatamodel */;
+			path = UkrainianScrooge.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CF88BC5A298D53C8005E20C6 /* Project object */;
+}
