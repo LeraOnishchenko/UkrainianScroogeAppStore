@@ -16,11 +16,11 @@
 		CF0A37FA29C0AB7A00A53C72 /* MyCoinsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0A37F929C0AB7A00A53C72 /* MyCoinsViewController.swift */; };
 		CF0A37FC29C0AB8900A53C72 /* VisionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0A37FB29C0AB8900A53C72 /* VisionViewController.swift */; };
 		CF0A37FE29C0AB9500A53C72 /* ElseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0A37FD29C0AB9500A53C72 /* ElseViewController.swift */; };
+		CF2CFCBB2B9091C60081521C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF2CFCBA2B9091C60081521C /* GoogleService-Info.plist */; };
 		CF2EF3242A1EA151007BDC6E /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2EF3232A1EA151007BDC6E /* Alert.swift */; };
 		CF3526B129BCB8EE009DA804 /* CoinsStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3526B029BCB8EE009DA804 /* CoinsStruct.swift */; };
 		CF3526B829BCE294009DA804 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3526B729BCE294009DA804 /* RegistrationViewController.swift */; };
 		CF3526BC29BCE2B6009DA804 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3526BB29BCE2B6009DA804 /* LoginViewController.swift */; };
-		CF3526BE29BCED6A009DA804 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF3526BD29BCED6A009DA804 /* GoogleService-Info.plist */; };
 		CF58E0DC2A09698500F9AFB4 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = CF58E0DB2A09698500F9AFB4 /* art.scnassets */; };
 		CF87E11029F5BCEA00093E02 /* SaveCoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF87E10F29F5BCEA00093E02 /* SaveCoinViewController.swift */; };
 		CF87E1152A001B0400093E02 /* UserStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF87E1142A001B0400093E02 /* UserStruct.swift */; };
@@ -63,11 +63,11 @@
 		CF0A37F929C0AB7A00A53C72 /* MyCoinsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCoinsViewController.swift; sourceTree = "<group>"; };
 		CF0A37FB29C0AB8900A53C72 /* VisionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionViewController.swift; sourceTree = "<group>"; };
 		CF0A37FD29C0AB9500A53C72 /* ElseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElseViewController.swift; sourceTree = "<group>"; };
+		CF2CFCBA2B9091C60081521C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CF2EF3232A1EA151007BDC6E /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		CF3526B029BCB8EE009DA804 /* CoinsStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsStruct.swift; sourceTree = "<group>"; };
 		CF3526B729BCE294009DA804 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 		CF3526BB29BCE2B6009DA804 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		CF3526BD29BCED6A009DA804 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CF58E0DB2A09698500F9AFB4 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		CF87E10F29F5BCEA00093E02 /* SaveCoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveCoinViewController.swift; sourceTree = "<group>"; };
 		CF87E1142A001B0400093E02 /* UserStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStruct.swift; sourceTree = "<group>"; };
@@ -195,7 +195,7 @@
 				CF88BC71298D53C9005E20C6 /* Assets.xcassets */,
 				CF88BC73298D53C9005E20C6 /* LaunchScreen.storyboard */,
 				CF88BC76298D53C9005E20C6 /* Info.plist */,
-				CF3526BD29BCED6A009DA804 /* GoogleService-Info.plist */,
+				CF2CFCBA2B9091C60081521C /* GoogleService-Info.plist */,
 				CF88BC6E298D53C8005E20C6 /* UkrainianScrooge.xcdatamodeld */,
 				CFF3D4C329BDEF880056D64A /* Utilities.swift */,
 				CFF3D4C729BDF2110056D64A /* Constants.swift */,
@@ -300,10 +300,10 @@
 			files = (
 				CF87E1292A059FD100093E02 /* coin.scn in Resources */,
 				CF58E0DC2A09698500F9AFB4 /* art.scnassets in Resources */,
-				CF3526BE29BCED6A009DA804 /* GoogleService-Info.plist in Resources */,
 				CF88BC75298D53C9005E20C6 /* LaunchScreen.storyboard in Resources */,
 				CFDDD91E298D6BBD00E3FF27 /* Assets.xcassets in Resources */,
 				CF88BC6D298D53C8005E20C6 /* Main.storyboard in Resources */,
+				CF2CFCBB2B9091C60081521C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -537,8 +537,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = VNU8KKW4GG;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = R8BL5N24J7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = UkrainianScrooge/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "I want to see you";
@@ -548,18 +548,20 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ua.edu.ukma.onishchenko.UkrainianScrooge;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devfor.UkrainianScroo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -571,8 +573,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = UkrainianScrooge/UkrainianScroogeRelease.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = VNU8KKW4GG;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = R8BL5N24J7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = UkrainianScrooge/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "I want to see you";
@@ -582,18 +584,20 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ua.edu.ukma.onishchenko.UkrainianScrooge;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devfor.UkrainianScroo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

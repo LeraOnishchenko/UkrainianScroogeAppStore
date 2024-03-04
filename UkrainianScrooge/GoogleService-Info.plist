@@ -2,10 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>CLIENT_ID</key>
-	<string>131806598258-0e7rjc7l3jsduk7i744uhnl93v00vbkt.apps.googleusercontent.com</string>
-	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.131806598258-0e7rjc7l3jsduk7i744uhnl93v00vbkt</string>
 	<key>API_KEY</key>
 	<string>AIzaSyBqim_7p7oa3Ojnx0VLCL45mNyk7jVcbTc</string>
 	<key>GCM_SENDER_ID</key>
@@ -13,7 +9,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>ua.edu.ukma.onishchenko.UkrainianScrooge</string>
+	<string>com.devfor.UkrainianScroo</string>
 	<key>PROJECT_ID</key>
 	<string>ukrainianscrooge</string>
 	<key>STORAGE_BUCKET</key>
@@ -29,6 +25,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:131806598258:ios:af4c86ff0ae84cb9a6deeb</string>
+	<string>1:131806598258:ios:6fb0b3d282241049a6deeb</string>
 </dict>
 </plist>
